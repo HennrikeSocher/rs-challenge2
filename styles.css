@@ -14,7 +14,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
 }
 
 ul {
@@ -26,7 +26,60 @@ ul {
   font-family: "Jetbrains Mono", sans-serif;
 }
 
+ul li a:hover {
+  transition: ease-in-out 0.3s;
+  color: #00bfa6;
+}
+
 a {
   text-decoration: none;
   color: #fff;
+}
+
+h1 {
+  font-family: "Jetbrains Mono", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #fff;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+p {
+  font-family: "Open Sans";
+  text-align: center;
+  line-height: 28px;
+  font-size: 16px;
+  color: #c2c2c2;
+  margin: 40px 0;
+}
+
+span {
+  color: #00bfa6;
+}
+
+.cadeado {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 20px;
+}
+
+.line {
+  width: 568px;
+  border: solid #00bfa6 1px;
+  margin: 80px auto 30px;
+}
+
+footer {
+  font-family: "Jetbrains Mono", sans-serif;
+  color: #c2c2c2;
+  text-align: center;
 }
